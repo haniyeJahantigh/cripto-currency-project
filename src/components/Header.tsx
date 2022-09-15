@@ -13,7 +13,6 @@ const MyHeader = styled(Box)(({ theme }) => ({
   height: 70,
   width: "80vw",
   boxShadow: "0.3px 0.3px 3px lightGrey",
-  marginBottom:"50px"
 }));
 const MyBox = styled(Box)(({ theme }) => ({
   margin: 10,

@@ -17,6 +17,7 @@ const MainBox = styled(Box)(({ theme }) => ({
   borderRadius: "12px",
   height: "200px",
   width: "100%",
+  margin:"10px"
 }));
 const LeftBox = styled(Box)(({ theme }) => ({
   display: "flex",
