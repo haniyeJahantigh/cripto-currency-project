@@ -14,7 +14,7 @@ const MySidebar = styled('div')(({ theme }) => ({
   borderTopRightRadius: 10,
   borderBottomRightRadius: 10,
   height:"100vh",
-  width:300
+  width:"30vw"
 }));
 const Mybox = styled(Box)(({ theme }) => ({
   display:"flex",

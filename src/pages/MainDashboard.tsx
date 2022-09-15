@@ -1,18 +1,20 @@
-import Sidebar from '../components/Sidebar'
-import Header from '../components/Header'
+import DailyDiposit from '../components/DailyDiposit';
 import { styled } from '@mui/system';
+import { Box } from '@mui/material';
  
-const MainBox = styled('div')(({ theme }) => ({
-  background: "#F8F9FD",
-  display:"flex"
+
+const BodyBox = styled(Box)(({ theme }) => ({
+  display:"flex",
+  justifyContent:"space-around",
 }));
 
 const MainDashboard = () => {
   return (
-    <MainBox>
-        <Sidebar/>
-        <Header/>
-    </MainBox>
+    <>
+        <BodyBox>
+          <DailyDiposit/>
+        </BodyBox>
+    </>
   )
 }
 
