@@ -5,6 +5,7 @@ import Stacking from "../components/Stacking";
 import BalanceChart from "../components/BalanceChart";
 import CriptoChart from "../components/CriptoChart";
 import TableMenu from "../components/TableMenu";
+import CoinsTable from "../components/CoinsTable";
 import { styled } from "@mui/system";
 import { Box } from "@mui/material";
 
@@ -36,6 +37,7 @@ const MainDashboard = () => {
             <CriptoChart />
           </Box>
           <TableMenu />
+          <CoinsTable />
         </LeftBox>
         <RightBox>
           <DailyDiposit />

@@ -7,7 +7,7 @@ const MainBox = styled(Box)(({ theme }) => ({
     display: 'flex',
     justifyContent: "space-around",
     boxSizing: "border-box",
-    height: "80px",
+    height: "30px",
     width: "100%",
     margin: "25px 10px 10px",
     color: "#A9ACBB",
