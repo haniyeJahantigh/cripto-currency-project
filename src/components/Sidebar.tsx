@@ -14,7 +14,7 @@ const MySidebar = styled('div')(({ theme }) => ({
   borderTopRightRadius: 10,
   borderBottomRightRadius: 10,
   height:"100vh",
-  width:"30vw"
+  width:"100%"
 }));
 const Mybox = styled(Box)(({ theme }) => ({
   display:"flex",
@@ -23,7 +23,7 @@ const Mybox = styled(Box)(({ theme }) => ({
   height:70,
   width:300,
   color:"#FFF",
-  fontSize:20,
+  fontSize:18,
   cursor:"pointer",
 }));
 const IconDiv = styled("div")(({ theme }) => ({

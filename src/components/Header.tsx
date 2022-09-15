@@ -10,8 +10,8 @@ const MyHeader = styled(Box)(({ theme }) => ({
   justifyContent: "space-between",
   background: "#FFF",
   padding: 10,
-  height: 70,
-  width: "80vw",
+  height: 60,
+  width: "100%",
   boxShadow: "0.3px 0.3px 3px lightGrey",
 }));
 const MyBox = styled(Box)(({ theme }) => ({
