@@ -1,3 +1,4 @@
+import React from 'react'
 import DailyDiposit from "../components/DailyDiposit";
 import Transactions from "../components/Transactions";
 import Buys from "../components/Buys";

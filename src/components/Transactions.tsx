@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 import OutboundIcon from '@mui/icons-material/Outbound';
+import React from 'react'
 
 const MainBox = styled(Box)(({ theme }) => ({
   display: "flex",
