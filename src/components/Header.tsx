@@ -24,7 +24,7 @@ const LinkTag = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   alignItem: "center",
-  cursor: "pointer" ,
+  cursor: "pointer",
   width: "250px",
 }));
 
@@ -38,20 +38,20 @@ const Header = () => {
             <Box sx={{ fontSize: "20px", color: "#453DE0" }}>
               Crypto assetes{" "}
             </Box>
-            <Box sx={{ border:"0.5px solid #A9ACBB", color:"#A9ACBB"}}/>
+            <Box sx={{ border: "0.5px solid #A9ACBB", color: "#A9ACBB" }} />
             <Box sx={{ color: "#A9ACBB" }}>stokes</Box>
           </LinkTag>
         </MyBox>
       </MyBox>
       <MyBox sx={{ width: "250px" }}>
         <MyBox sx={{ color: "#A9ACBB" }}>
-          <Box sx={{ marginRight:"10px"}}>
-            <CreditCardOutlinedIcon color="primary" />
+          <Box sx={{ marginRight: "10px" }} color={"#453DE0"}>
+            <CreditCardOutlinedIcon />
           </Box>
           connect a wallet
         </MyBox>
-        <Box>
-          <AccountCircleRoundedIcon color="primary"  />
+        <Box color={"#453DE0"} mt={0.5}>
+          <AccountCircleRoundedIcon fontSize="large" />
         </Box>
       </MyBox>
     </MyHeader>

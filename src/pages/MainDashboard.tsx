@@ -6,6 +6,7 @@ import BalanceChart from "../components/BalanceChart";
 import CriptoChart from "../components/CriptoChart";
 import TableMenu from "../components/TableMenu";
 import CoinsTable from "../components/CoinsTable";
+import News from "../components/News";
 import { styled } from "@mui/system";
 import { Box } from "@mui/material";
 
@@ -44,6 +45,7 @@ const MainDashboard = () => {
           <Transactions />
           <Buys />
           <Stacking />
+          <News />
         </RightBox>
       </BodyBox>
     </>

@@ -52,11 +52,9 @@ const CoinsTable = () => {
                                 <TableCell>Name</TableCell>
                                 <TableCell align="left">Marketcup</TableCell>
                                 <TableCell align="left">Balance</TableCell>
-                                <TableCell align="left">Price</TableCell>
+                                <TableCell align="left">1H</TableCell>
+                                <TableCell align="left">24H</TableCell>
                                 <TableCell align="left">7D</TableCell>
-                                <TableCell align="left">30D</TableCell>
-                                <TableCell align="left">1Y</TableCell>
-                                <TableCell align="left">Today</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
@@ -72,12 +70,10 @@ const CoinsTable = () => {
                                         {row.name}
                                     </TableCell>
                                     <TableCell align="left">{abbreviateNumber(row.market_cap_usd)}</TableCell>
-                                    <TableCell align="left">{row.balance}</TableCell>
                                     <TableCell align="left">{row.price_usd}</TableCell>
                                     <TableCell align="left" sx={{ color: row.percent_change_1h >= 0 ? "green" : "red" }} >{row.percent_change_1h}</TableCell>
-                                    <TableCell align="left" sx={{ color: row.percent_change_1h >= 0 ? "green" : "red" }}>{row.percent_change_24h}</TableCell>
-                                    <TableCell align="left" sx={{ color: row.percent_change_1h >= 0 ? "green" : "red" }}>{row.percent_change_7d}</TableCell>
-                                    <TableCell align="left">{row.today}</TableCell>
+                                    <TableCell align="left" sx={{ color: row.percent_change_24h >= 0 ? "green" : "red" }}>{row.percent_change_24h}</TableCell>
+                                    <TableCell align="left" sx={{ color: row.percent_change_7d >= 0 ? "green" : "red" }}>{row.percent_change_7d}</TableCell>
                                 </TableRow>
                             ))}
                         </TableBody>

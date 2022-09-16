@@ -12,7 +12,7 @@ const MainBox = styled(Box)(({ theme }) => ({
   borderRadius: "12px",
   height: "120px",
   width: "100%",
-  margin: "10px",
+  margin: "10px 10px 20px",
 }));
 const TopBox = styled(Box)(({ theme }) => ({
   display: "flex",
