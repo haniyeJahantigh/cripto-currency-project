@@ -9,7 +9,7 @@ const MainBox = styled(Box)(({ theme }) => ({
     boxSizing: "border-box",
     height: "30px",
     width: "100%",
-    margin: "25px 10px 10px",
+    margin: "35px 10px 10px",
     color: "#A9ACBB",
     fontSize: "16px",
     cursor: "pointer"

@@ -19,55 +19,55 @@ const TitleBox = styled(Box)(({ theme }) => ({
 }));
 const data = [
   {
-    "id": "japan",
+    "id": "myBalance",
     "color": "hsl(248, 70%, 50%)",
     "data": [
       {
-        "x": "plane",
+        "x": "litecoin",
         "y": 203
       },
       {
-        "x": "helicopter",
+        "x": "chainLink",
         "y": 200
       },
       {
-        "x": "boat",
+        "x": "Monero",
         "y": 204
       },
       {
-        "x": "train",
+        "x": "FTX",
         "y": 104
       },
       {
-        "x": "subway",
+        "x": "Bitcoin",
         "y": 140
       },
       {
-        "x": "bus",
+        "x": "stellat",
         "y": 240
       },
       {
-        "x": "car",
+        "x": "Algorand",
         "y": 204
       },
       {
-        "x": "moto",
+        "x": "Shiba inu",
         "y": 232
       },
       {
-        "x": "bicycle",
+        "x": "USD coin",
         "y": 232
       },
       {
-        "x": "horse",
+        "x": "Ethereum",
         "y": 158
       },
       {
-        "x": "skateboard",
+        "x": "Binance Coin",
         "y": 243
       },
       {
-        "x": "others",
+        "x": "solana",
         "y": 148
       }
     ]
